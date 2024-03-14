@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <h2>Formulário de Contato</h2>
+    <form action="/submit_contato" method="post">
+        <label for="nome">Nome: <span>*</span></label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="fone">Fone: <span>*</span></label><br>
+        <input type="tel" id="fone" name="fone" required><br><br>
+
+        <label for="email">E-mail: <span>*</span></label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="motivo">Motivo do Contato:</label><br>
+        <select id="motivo" name="motivo">
+            <option value="duvidas">Dúvidas</option>
+            <option value="suporte">Suporte Técnico</option>
+            <option value="feedback">Feedback</option>
+            <option value="orcamento">Solicitação de Orçamento</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+
+        <label for="comentarios">Comentários Gerais:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

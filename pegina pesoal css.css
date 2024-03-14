@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #c3b5ff;
+    li
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.dados-pro {
+    font-size: 30px;
+    padding: 25px;
+}
+
+
+nav
+{
+    display: flex;
+    align-items: center;
+}
+menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    Background-color:#c4bcf8;
+
+}
+menu a:hover
+{
+    color: rgb(236, 183, 192);
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    Background-color:#c4bcf8;
+
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
